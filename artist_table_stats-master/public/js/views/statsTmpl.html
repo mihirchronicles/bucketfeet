@@ -1,0 +1,44 @@
+<div class="stats-container">
+    <div class="dynamic-chart-container">
+        <div id="chart1"></div>
+    </div>
+    
+    <div class="stats-container-snapshot">
+        <div class="col s10 m5">
+            <div class="card">
+                <div class="card-content">
+                    <h4>Artist Signups Dashboard</h4>
+                </div>
+                <div class="card-action">
+                    <h5>This Month Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{thisMonthSignups}}</strong></a>
+                    <h5>Last Month Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{lastMonthSignups}}</strong></a>
+                    <h5>Two Month Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{twoMonthSignups}}</strong></a>
+                    <h5>Six Month Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{sixMonthSignups}}</strong></a>
+                    <h5>Last Year Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{lastYearSignups}}</strong></a>
+                    <h5>All Time Artist Signups</h5>
+                    <a class="btn btn-stats light-blue darken-3"><strong>{{allTimeSignups}}</strong></a>
+                    <br><br><br><br><br>
+                    <p>***All time signups and last year signups seem to be the same</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stats-container-graph">
+        <div class="col s10 m5">
+            <div class="card">
+                <div class="card-content">
+                    <h4>Artist Signups Over Time</h4>          
+                </div>
+                <div class="card-action">
+                    <div id="chart2"></div>
+                    <div id="chart3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

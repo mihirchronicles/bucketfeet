@@ -1,0 +1,25 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mihirchronicles/artist_table_stats",
+  "authors": [
+    "MIHIR PATEL <mihirptl89@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-grid": "~3.0.6",
+    "angular-animate": "~1.4.7",
+    "moment": "~2.10.6",
+    "materialize": "~0.97.1",
+    "c3": "~0.4.10"
+  }
+}

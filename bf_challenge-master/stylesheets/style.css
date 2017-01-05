@@ -1,0 +1,106 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+/**************************************
+NAVBAR
+**************************************/
+.navbar-default .navbar-brand {
+	color: #ff0000;
+	font-family: Sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/**************************************
+D3 BUTTONS
+**************************************/
+.btn-group {
+	padding: 20px;
+}
+
+/**************************************
+CONTEXT BOX
+**************************************/
+.context-text {
+  width: 50%;
+  padding: 20px;
+  margin-left: 20px;
+  border: solid;
+}
+
+/**************************************
+D3 GRAPH
+**************************************/
+#dashboard {
+	margin: 50px;
+  height: 350px;
+}
+
+path {  
+  stroke: #fff; 
+}
+path:hover {  
+  opacity:0.9; 
+}
+rect:hover {  
+  fill:#8cb4da; 
+}
+.axis {  
+  font: 10px sans-serif; 
+}
+.legend tr{    
+  border-bottom:1px solid grey; 
+}
+.legend tr:first-child{    
+  border-top:1px solid grey; 
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  
+  display: none; 
+}
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+
+/* *************** FOOTER *************** */
+.footerCredit {
+  color: #ff0000;
+}
+
+footer {
+  height: 80px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #e7e7e7;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.footerText {
+  margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+<div class="tableContainer">
+	<div ui-grid="gridOptions" ui-grid-pagination class="grid"></div>
+	<br />
+	<div class="button-group">
+	  <h5>Current page: {{ gridApi.pagination.getPage() }} of {{ gridApi.pagination.getTotalPages() }}</h5>
+	  <button type="button" class="btn btn-success light-blue darken-3" ng-click="gridApi.pagination.previousPage()">
+	    <
+	  </button>
+	  <button type="button" class="btn btn-success light-blue darken-3" ng-click="gridApi.pagination.nextPage()">
+	    >
+	  </button>
+	  <button type="button" class="btn btn-success light-blue darken-3" ng-click="gridApi.pagination.seek(1)">
+        <<
+      </button>
+	  <button type="button" class="btn btn-success light-blue darken-3" ng-click="gridApi.pagination.seek(518)">
+        >>
+      </button>
+	</div>
+</div>
